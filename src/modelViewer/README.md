@@ -5,7 +5,7 @@ A plugin for [Reveal.js](https://github.com/hakimel/reveal.js) that allows you t
 The 3D Models are presented using [**&lt;model-viewer&gt;**](https://modelviewer.dev).
 
 
-Here is a quick [Demo](https://frankbauer.github.io/reveal-js-demos/modelViewer/demo.html).
+Here is a quick [Demo](https://frankbauer.github.io/reveal-js-demos/modelViewer/demo.html) (You can find the sources [here](https://github.com/frankbauer/reveal-js-demos/tree/master/modelViewer): ).
 
 ## Installation
 1. Include [**&lt;model-viewer&gt;**](https://modelviewer.dev) into your slides. Either by downloading a alocal copy or referenceing the CDN. Make sure to include &lt;model-viewer&gt; **before** the plugin. When downloaded to a folder name `js/model-viewer` you can include it using 
