@@ -7,7 +7,7 @@ This plugin adds a new event, that contains a full the complete fragement state 
 
 
 ## Installation
-Copy the folder `fragmentEvents` into the plugin folder of your reveal.js presentation, i.e. `plugin/fragmentEvents`, and add the plugin to your presentation:
+Copy the folder [`fragmentEvents`](https://github.com/frankbauer/reveal-js-plugins/tree/master/dist/fragmentEvents) into the plugin folder of your reveal.js presentation, i.e. `plugin/fragmentEvents`, and add the plugin to your presentation:
 
 ```html
 <script src="plugin/fragmentEvents/plugin.js"></script>
@@ -30,7 +30,7 @@ This event fires, when a slide and its fragments first get loaded. If your fragm
 
 For example, we use this to capture the initial state of some Slide-Elements before they get changed by other fragments. This will later allow us to reset the initial state of elements when going backwards through the fragments.
 
-You can check out our [ModelViewer](https://github.com/frankbauer/reveal-js-plugins/tree/master/modelViewer)-Plugin for an example of this.
+You can check out our [ModelViewer](https://github.com/frankbauer/reveal-js-plugins/tree/master/src/modelViewer)-Plugin for an example of this.
 
 
 ```javascript

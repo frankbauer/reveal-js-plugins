@@ -13,9 +13,9 @@ Here is a quick [Demo](https://frankbauer.github.io/reveal-js-demos/modelViewer/
 <script src="js/model-viewer/js/model-viewer.js"></script>
 ```
 
-3. You also need to include our [FragmentEvents](https://github.com/frankbauer/reveal-js-plugins/tree/master/fragmentEvents)-Plugin, and load it **before** the ModelViewerPlugin.
+3. You also need to include our [FragmentEvents](https://github.com/frankbauer/reveal-js-plugins/tree/master/dist/fragmentEvents)-Plugin, and load it **before** the ModelViewerPlugin.
 
-2. Copy the folder `modelViewer` into the plugin folder of your reveal.js presentation, i.e. `plugin/modelViewer`, and add the plugin to your presentation:
+2. Copy the folder [`modelViewer`](https://github.com/frankbauer/reveal-js-plugins/tree/master/dist/modelViewer) into the plugin folder of your reveal.js presentation, i.e. `plugin/modelViewer`, and add the plugin to your presentation:
 
 ```html
 <script src="plugin/modelViewer/plugin.js"></script>
