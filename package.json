@@ -1,0 +1,27 @@
+{
+  "name": "reveal-js-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankbauer/reveal-js-plugins.git"
+  },
+  "author": "F. Bauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankbauer/reveal-js-plugins/issues"
+  },
+  "homepage": "https://github.com/frankbauer/reveal-js-plugins#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "gulp": "^4.0.2",    
+    "gulp-clean-css": "^4.3.0",    
+    "gulp-stylus": "^2.7.1",
+    "gulp-terser": "^2.1.0",
+    "terser": "^5.15.1"
+  }
+}
