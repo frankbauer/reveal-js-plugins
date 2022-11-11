@@ -1,0 +1,29 @@
+.loading-text
+    position absolute
+    top 0
+    bottom 0
+    left 0
+    right 0
+    margin auto
+    text-align center
+    width 100%
+    height 100px
+    line-height 100px
+    span
+        display inline-block
+        margin 0 5px
+        color #fff
+        font-family sans-serif
+        for num in (1..7)
+            &:nth-child(num)
+                filter blur(0px)
+                animation blur-text 1.5s ((num - 1) * 0.2s) infinite linear alternate       
+
+@keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
+}

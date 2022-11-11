@@ -1,0 +1,60 @@
+@import "../constants.styl"
+
+.left-model, .double-model
+    display flex
+    height slideWidth
+    width 100%    
+    flex-direction row
+    justify-content space-around
+    align-items center
+    model-viewer
+        width 49%
+        margin 0px
+        row-gap  0px
+    .description
+        position relative
+        margin 0
+        .fragment            
+            position absolute
+            font-size 1em
+
+.left-model
+    flex-wrap nowrap
+    align-content center
+    model-viewer
+        height 100%
+    .description     
+        width 50%
+        height 100%
+        .fragment 
+            top 0
+            bottom 0px
+            margin-top auto
+            margin-bottom auto
+            height fit-content
+
+.double-model
+    flex-wrap wrap
+    align-content flex-start 
+    model-viewer
+        height 400px   
+    .description
+        width 100%
+        height fit-content    
+        .fragment   
+            top 16px
+            left 0
+            vertical-align middle
+            align-self center
+            width 100%
+    .title
+        height fit-content
+        width 100%
+        margin 0px
+
+.hidden 
+    display none
+    opacity 0
+
+model-viewer-command
+    display none
