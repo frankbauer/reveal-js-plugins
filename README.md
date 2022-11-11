@@ -1,6 +1,6 @@
 # Plugins
 
-This is a collection of plugins for [Reveal.js](https://github.com/hakimel/reveal.js) we use for Lectures at [FAU](https://www.fau.de) in the Visual Computing Group.
+This is a collection of plugins for [Reveal.js](https://github.com/hakimel/reveal.js) we use for Lectures at [FAU](https://www.fau.de) in the [Visual Computing Group](https://lgdv.tf.fau.de).
 
 Currently this collection includes:
 - [**FragmentEvents**](https://github.com/frankbauer/reveal-js-plugins/tree/master/fragmentEvents): Adds a more versatile Fragment Event hook, that helps you to restore a precices fragment state when a deck is reloaded or users move backward through the fragments on a slide. This is mostly a utility used by other plugins.
